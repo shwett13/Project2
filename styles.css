@@ -18,6 +18,17 @@ nav {
     align-items: center;
 }
 
+li {
+    list-style-type: none;
+}
+
+.nav__links {
+    display: flex;
+    padding: 8px;
+    text-decoration: none;
+    font-size: 16px;
+}
+
 .purple__logo {
     color: #7342d6;
 }
