@@ -16,6 +16,8 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 0 24px;
+    padding: 16px;
 }
 
 li {
@@ -24,17 +26,22 @@ li {
 }
 
 .login {
-    padding-left: 40px;
+    margin: 0 24px 0 48px;
 }
 
 .nav__links {
     display: flex;
     padding: 8px;
     text-decoration: none;
-    font-size: 16px;
+    font-size: 14px;
 }
 
-.purple__logo {
-    background-color: #7342d6;
-    color: white;
+
+.logo__link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    font-size: 24px;
+    font-family: 'Roboto', sans-serif;
 }
