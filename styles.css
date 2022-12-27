@@ -65,3 +65,9 @@ li {
     transform: scale(0.4);
 }
 
+.signup {
+    background-color: #6415ff;
+    border-radius: 9999px;
+    color: #f7fafc;
+    text-decoration: none;
+}
