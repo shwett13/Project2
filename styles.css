@@ -20,6 +20,11 @@ nav {
 
 li {
     list-style-type: none;
+    padding-left: 16px;
+}
+
+.login {
+    padding-left: 40px;
 }
 
 .nav__links {
@@ -30,5 +35,6 @@ li {
 }
 
 .purple__logo {
-    color: #7342d6;
+    background-color: #7342d6;
+    color: white;
 }
