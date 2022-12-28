@@ -131,3 +131,24 @@ li {
     font-size: 12px;
 }
 
+.intro__para {
+    margin: 32px 0;
+}
+
+.btn {
+    padding: 16px 32px;
+    margin: 8px 8px 8px 0;
+    background-color: #6415ff;
+    color: #f7fafc;
+    font-size: 16px;
+    border-radius: 9999px;
+    border: none;
+    position: absolute;
+}
+
+.input__text {
+    background-color: #ffffff;
+    padding: 20px 192px 20px 32px;
+    border-radius: 9999px;
+    position: relative;
+}
