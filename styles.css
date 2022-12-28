@@ -12,6 +12,16 @@
     margin: 0 auto;
 }
 
+h1 {
+    font-size: 48px;
+    line-height: 1.25em;
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.5em;
+}
+
 nav {
     display: flex;
     justify-content: space-between;
@@ -95,9 +105,29 @@ li {
 
 .intro__text {
     width: 40%;
+    flex-wrap: wrap;
 }
 
 .intro__img {
     width: 60%;
+}
+
+.intro__img--wrapper {
+    width: 100%;
+}
+
+.trusted__customers {
+    width: 100%;
+    margin: 16px 0 0;
+    padding: 0 128px 0 0;
+}
+
+.customers {
+    margin: 80px 0 0;
+}
+
+.customers__text {
+    color: #a0aec0;
+    font-size: 12px;
 }
 
