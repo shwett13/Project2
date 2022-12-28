@@ -1,15 +1,16 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Inter', sans-serif;
 }
 
 .row {
     width: 100%;
     max-width: 1200px;
     margin: 0 auto;
+    padding: 32px;
 }
 
 nav {
@@ -29,12 +30,16 @@ li {
 .login {
     margin: 0 24px 0 48px;
     text-decoration: none;
+    padding: 0 0 4px;
 }
 
 .nav__link {
     text-decoration: none;
     color: #243e63;
     font-size: 14px;
+    font-weight: 700;
+    margin: 0 24px;
+    padding: 0 0 4px;
 }
 
 .nav__links {
@@ -48,7 +53,6 @@ li {
     justify-content: center;
     align-items: center;
     font-weight: bold;
-    font-size: 60px;
     font-family: 'Roboto', sans-serif;
     color: #243e63;
     max-width: 1%;
@@ -58,16 +62,22 @@ li {
     display: flex;
     justify-content: center;
     align-items: center;
-    transform: scale(0.40);
+}
+
+.treact {
+    font-size: 24px;
 }
 
 .logo__box {
-    transform: scale(0.4);
+    width: 100%;
+    max-width: 40px;
+    margin: 0 12px 0 0;
 }
 
 .signup {
     background-color: #6415ff;
     border-radius: 9999px;
     color: #f7fafc;
+    padding: 12px 32px;
     text-decoration: none;
 }
