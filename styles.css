@@ -139,7 +139,7 @@ li {
 
 .btn {
     padding: 16px 32px;
-    margin: 8px 8px 8px 0;
+    margin: 6px 8px 8px 248px;
     background-color: #6415ff;
     color: #f7fafc;
     font-size: 16px;
@@ -150,15 +150,19 @@ li {
 
 .input__text {
     background-color: #ffffff;
-    padding: 20px 192px 20px 32px;
+    padding: 24px 192px 20px 32px;
     border-radius: 9999px;
-    position: relative;
+    position: absolute;
 }
 
 .container {
     padding: 80px 0;
     text-align: center;
+}
 
+.collect__info {
+    background-color: white;
+    padding-bottom: 16px;
 }
 
 .features__header {
