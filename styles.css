@@ -183,3 +183,6 @@ li {
     flex-wrap: wrap;
 }
 
+.list__services {
+    display: flex;
+}
