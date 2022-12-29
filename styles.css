@@ -165,24 +165,3 @@ li {
     padding-bottom: 16px;
 }
 
-.features__header {
-    font-size: 16px;
-    font-weight: 700;
-    text-transform: uppercase;
-    letter-spacing: 0.1em;
-    
-}
-
-.features__header--main {
-    font-size: 48px;
-    color: #243e63;
-}
-
-.features__para {
-    color: #7c8ba1;
-    flex-wrap: wrap;
-}
-
-.list__services {
-    display: flex;
-}
