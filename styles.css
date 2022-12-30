@@ -187,4 +187,10 @@ li {
 .services__lists {
     display: flex;
     flex-wrap: wrap;
+    margin: 8px 0 0 16px;
+}
+
+.service {
+    display: flex;
+    flex-wrap: wrap;
 }
