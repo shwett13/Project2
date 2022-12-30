@@ -183,3 +183,8 @@ li {
     font-size: 18px;
     margin: 16px 0 0;
 }
+
+.services__lists {
+    display: flex;
+    flex-wrap: wrap;
+}
