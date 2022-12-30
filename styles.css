@@ -186,11 +186,27 @@ li {
 
 .services__lists {
     display: flex;
-    flex-wrap: wrap;
-    margin: 8px 0 0 16px;
 }
 
 .service {
     display: flex;
-    flex-wrap: wrap;
+}
+
+.services__img--wrapper {
+    padding: 1.25rem;
+    border: solid;
+    border-color: rgb(226, 232, 240);
+    border-radius: 9999px;
+}
+
+.features__title--wrapper {
+    color: #243e63;
+    font-size: 24px;
+    margin: 16px 0 0;
+}
+
+.features__para--wrapper {
+    color: #7c8ba1;
+    font-size: 16px;
+    margin: 16px 0 0;
 }
