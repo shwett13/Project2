@@ -187,6 +187,9 @@ li {
 .services__lists {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
 }
 
 .service {
@@ -194,7 +197,7 @@ li {
     margin: 0 16px;
     padding: 32px 8px;
     width: 100%;
-    max-width: calc(100% / 4);
+    max-width: calc(100% / 3.3);
 }
 
 .services__img--wrapper {
